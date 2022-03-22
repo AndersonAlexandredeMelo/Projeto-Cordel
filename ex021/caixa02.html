@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: darkgray;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: rgb(85, 83, 83);
+            padding: 3px;
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.267);
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 35px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+           
+        }
+        main{
+            background-color: rgb(141, 137, 137);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px 3px;
+            box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.37);
+        }
+        article{
+            background-color: lightgrey;
+            padding: 5px; ;
+        }
+        article > aside{
+            background-color: rgb(95, 92, 92);
+            
+        }
+        footer{
+            background-color:black ;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Curso em Vídeo</h1>
+        <nav>
+            <a href="#">Link1</a>
+            <a href="#">Link2</a>
+            <a href="#">Link3</a>
+            <a href="#">Link4</a>
+            <a href="#">Link5</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o fluminense</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab corrupti debitis fugiat. Dolores minima animi, itaque fugit totam eum ipsam dolorem, optio iste enim placeat vero pariatur. Aliquid, repudiandae nam!</p>
+                <aside>
+                    <p>Artigo por; Anderson Alexandre</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        Desenvolvido por Anderson Alexandre
+    </footer>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="p-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas em Css, continuação</title>
+    <style>
+        @font-face{
+            font-family: 'Love';
+            src: url(fonts/love\ larry\ ttf.ttf) format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            /*
+            Tipos de format()
+            - opentype (otf)
+            - truetype (ttf)
+            - embedded-att (Apple advance Typography)
+            -svg ()
+            */
+        }
+        @font-face {
+            font-family: 'Cheri';
+            src: url(fonts/CHERI___.TTF) format('truetype');
+            font-weight:normal;
+            font-style:normal;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            font-family:'Love', Times, serif;
+            font-size: 3em;
+            font-weight:normal;
+        }
+        h2{
+            font-family: 'Cheri';
+            src: url(fonts/CHERI___.TTF) format('truetype');
+            font-weight: normal;
+            font-style: normal; 
+        }
+    </style>
+</head>
+<body>
+    <h1>Anderson & Daise</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil explicabo quam temporibus dolore qui? Ex veritatis sed sapiente at accusantium reprehenderit, ea quam iure optio expedita ad consectetur, itaque eveniet.</p>
+    <h2>Anderson & Daise</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem earum nostrum cum, necessitatibus ex iste dicta numquam mollitia, sed sapiente eligendi minima, amet expedita modi eaque! Tenetur voluptas nisi aspernatur.</p>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insersão de Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Vídeos hospedados localmente</h1>
+<p>Com a expansão da banda larga no Brasil (sim, eu sei que
+    ainda estamos longe de algo ideal na maioria do território
+    nacional) <br> tornou-se possível até assistir um vídeo em 4K em
+    nosso plano 4G do celular (é caro, mas possível).</p>
+<p>Para inserir um vídeo em nosso site, podemos utilizar a nova
+        tag video da HTML5, caso o arquivo esteja hospedado no nosso próprio servidor.</p>
+<h2>Este vídeo está hospedado no meu próprio servidor</h2>
+    <video width="600" poster="imagens/capa2.jpg" controls autoplay loop>
+        <source src="midia/video.mp4" type="video/mp4">
+        <source src="midia/video.webm" type="video/webm">
+        <source src="midia/video.ogv" type="video/ogv">
+        <source src="midia/video.m4v" type="video/m4v">
+        <p>Seu navegador Não tem compatibilidade com reprodução de vídeos</p>     
+    </video>
+    <h1>Inserindo vídeos do Youtube</h1>
+    <iframe width="600" height="315" src="https://www.youtube.com/embed/rrDvWK_r12E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

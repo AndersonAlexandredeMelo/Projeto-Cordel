@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com Links</title>
+</head>
+<body>
+    <h1>Usando links Internos</h1>
+    <p>
+        Para criar um hyperlink, devemos criar âncoras através da tag <a>. O principal
+            atributo dessa tag é o href, que cria uma referência hipertexto. Vamos ver um
+            exemplo simples:
+            Note que dentro do atributo href, o que colocamos foi uma URL completa para outro
+site.
+    </p>
+   <p> Mira no Alvo 🎯
+Por padrão, sempre que um visitante clique em um
+hyperlink, o site de destino abre na mesma janela do site
+que continha esse link. Ou seja, o conteúdo anterior vai
+deixar de ser exibido para mostrar o novo conteúdo.
+Esse é um comportamento desejado quando o visitante vai
+continuar a visitar o nosso site, apenas mudando de um
+documento para outro. Mas e quando um clique leva o visitante
+para outro site e provavelmente ele nunca mais voltará ao nosso?
+Para poder controlar onde o site de destino vai abrir, podemos usar o atributo target,
+que suporta os seguintes valores:
+‣ _blank vai abrir o link em uma nova janela em branco
+‣ _self vai abrir o link na janela ou frame atual (padrão)
+‣ _top vai desfazer todos os frames e abrir o destino no navegador completo
+‣ _parent similar ao uso do _top em uma referência à janela mãe
+‣ nome-do-frame caso esteja usando frames, indicar o nome da janela a abrir
+Como o uso de frames é uma técnica quase em desuso, vamos nos basear apenas nas
+duas primeiras opções _blank e _self.</p>
+    <h2>Links Externos</h2>
+    <p>Você pode acessar o  repositório público deste curso em <a href="https://gustavoguanabara.github.io/" target="_blank" rel="external">gustavoguanabara.github.io</a></p>
+    <p>Você também pode acessar o curso em vídeo em <a href="https://youtube.com/cursoemvideo/" target="_blank" rel="external">curso em vídeo</a></p>
+    <h2>Internos</h2>
+    <p>Esta é a primeira página do site. Se você quiser pode acessar também a minha segunda página <a href="pag002.html" rel="_self">segunda Página</a></p>
+    <h3>notícias <a href="noticias/pag003.html">noticias</a></h3>
+    <h1>Links para download</h1>
+    <ul>
+        <li> <a href="livro/"> Baixar o livro em PDF</a></li>
+    </ul>
+</body>
+</html>

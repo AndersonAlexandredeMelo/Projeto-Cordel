@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplismente aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width:750px)" srcset="imagens/foto_p.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexvel">
+    </picture>
+<h1>Reproduzindo Áudio</h1>
+<p>Vamos aprender a reproduzir áudio em HTML5.</p>
+<p>Vamos analisar os principais atributos da tag <audio> antes de mais nada:</p>
+    <p>O atributo preload indica se o áudio será pré-carregado ou não e aceita três
+        valores:</p>
+        <p> <strong> Metadata</strong> vai carregar apenas as informações sobre o arquivo (tamanho,
+            tempo, informações de direitos, etc)</p>
+        <p> <strong>None</strong>  não vai carregar absolutamente nada até que o usuário clique no botão play ou um script inicie a reprodução</p>
+        <p><strong>Auto</strong> (padrão) vai carregar o arquivo de áudio inteiro assim que a página for carregada, mesmo que o usuário nunca aperte o play</p>
+        <p>O atributo controls vai apresentar o player na tela. Caso não seja colocado na tag
+<audio>, o controle será transparente e o usuário não poderá interagir com ele.
+‣ O atributo autoplay, quando inserido, vai iniciar a reprodução do áudio assim que
+a página for carregada.
+‣ O atributo loop vai fazer com que o áudio seja repetido eternamente assim que
+terminar a sua reprodução.
+Dentro da tag <audio>, adicionamos vários <source> com formatos diferentes do
+mesmo áudio. Coloque na parte de cima o seu formato favorito. Os demais só serão
+carregados caso o de cima falhe. Caso todos falhem, criamos um parágrafo que
+permite o download do arquivo MP3 para ouvir no player padrão do dispositivo.</p>
+<p>Dentro da tag audio, adicionamos vários source com formatos diferentes do
+    mesmo áudio. Coloque na parte de cima o seu formato favorito. <br> Os demais só serão
+    carregados caso o de cima falhe. Caso todos falhem, criamos um parágrafo que
+    permite o download do arquivo MP3 para ouvir no player padrão do dispositivo.</p>
+<audio preload="metadata" autoplay controls loop>
+    <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+    <source src="midia/guanacast-33.ogg" type="audio/ogg">
+    <source src="midia/guanacast-33.wav" type="audio/wav"><!-- Não se deve usar este formato pois é grande e dificulta o carregamento, principalmente em dispositivos móveis.  -->
+</audio>
+<p>infelizmente seu navegador não consegui reproduzir áudio. <a href="midia/guanacast-33.mp3">Clique aqui para baixar o arquivo MP3.</a> </p>
+
+<h1>E os Vídeos</h1>
+<p>Com a expansão da banda larga no Brasil (sim, eu sei que
+    ainda estamos longe de algo ideal na maioria do território
+    nacional) <br> tornou-se possível até assistir um vídeo em 4K em
+    nosso plano 4G do celular (é caro, mas possível).</p>
+<p>Para inserir um vídeo em nosso site, podemos utilizar a nova
+        tag video da HTML5, caso o arquivo esteja hospedado no nosso próprio servidor.</p>
+</body>
+</html>
