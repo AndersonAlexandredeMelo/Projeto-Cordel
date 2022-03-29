@@ -1,31 +1,34 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2? family= Audiowide & family= Dancing+Script & display=swap');
-@import url('https://fonts.googleapis.com/css2? family= Audiowide & family= Dancing+Script & display=swap');
+
+@import url('https://fonts.googleapis.com/css2? family= Sriracha & display=swap');
+
+@import url('https://fonts.googleapis.com/css2? family= Passion+One & display=swap');
 :root {
-   --font1: Verdana, Geneva, Tahoma, Sans-serif;
-   --font2:font-family: 'Audiowide', cursiva;
-   font-family: 'Dancing Script', cursiva;
-   --font3:font-family: 'Audiowide', cursiva;
-   font-family: 'Dancing Script', cursiva;
+   --fonte1: Verdana, Geneva, Tahoma, Sans-serif;
+   --fonte2: 'Sriracha', cursiva;
+   --fonte3: 'Passion One', cursiva;
+   
 }
 * {
    margin: 0px;
    padding: 0px;
  }
  html, body {
-    font-family:var(--font1) ;
+   font-family:var(--fonte1) ;
    min-height: 100vh;
    background-color: darkgray;
  }
  header {
+   padding: 40px;
    background-color: rgb(56, 56, 56);
    color: white;
    text-align: center;
- }
- header > h1 {
-    font-family: var(--font2);
+    }
+ header > h1 > p {
+   font-family: var(--fonte2);
    padding: 40px;
-   text-transform: small-caps;  
+   text-transform: small-caps;
+   font-size: 10vw;  
  }
  header > p {
    padding-bottom: 40px;
@@ -39,11 +42,12 @@
     text-decoration: underline;
  } 
  section {
-    font-family: var(--font1);
+    font-family: var(--fonte3);
     padding-top: 8vh;
     padding-bottom: 8vh;
     line-height: 1.5em;
     padding-left: 32px;
+    font-size: 2.5em;
  }
  section.nornal {
     background-color:aliceblue;
@@ -55,7 +59,8 @@
  }
  section.imagem > p {
     background-color: rgb(71, 71, 71);
-    width: 250px;
+    width: 420px;
+    display:inline-block;
  }
  footer {
     background-color: rgb(43, 43, 43);
