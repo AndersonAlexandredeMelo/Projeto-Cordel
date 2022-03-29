@@ -3,15 +3,16 @@
 @import url('https://fonts.googleapis.com/css2? family= Sriracha & display=swap');
 
 @import url('https://fonts.googleapis.com/css2? family= Passion+One & display=swap');
+
 :root {
    --fonte1: Verdana, Geneva, Tahoma, Sans-serif;
-   --fonte2: 'Sriracha', cursiva;
-   --fonte3: 'Passion One', cursiva;
-   
+     --fonte2: 'Passion One', cursiva;
+     --fonte3: 'Sriracha', cursiva; 
 }
 * {
    margin: 0px;
    padding: 0px;
+   font: 1em;
  }
  html, body {
    font-family:var(--fonte1) ;
