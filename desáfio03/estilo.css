@@ -1,8 +1,10 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2? family= Passion+One & display=swap');
+
 @import url('https://fonts.googleapis.com/css2? family= Sriracha & display=swap');
 
-@import url('https://fonts.googleapis.com/css2? family= Passion+One & display=swap');
+
 
 :root {
    --fonte1: Verdana, Geneva, Tahoma, Sans-serif;
@@ -25,11 +27,11 @@
    color: white;
    text-align: center;
     }
- header > h1 > p {
-   font-family: var(--fonte2);
+ header > h1  {
+   font-family: var(--fonte1);
    padding: 40px;
    text-transform: small-caps;
-   font-size: 10vw;  
+   font-size: 08vw;  
  }
  header > p {
    padding-bottom: 40px;
@@ -60,8 +62,8 @@
  }
  section.imagem > p {
     background-color: rgb(71, 71, 71);
-    width: 420px;
     display:inline-block;
+    padding: 8px;
  }
  footer {
     background-color: rgb(43, 43, 43);
