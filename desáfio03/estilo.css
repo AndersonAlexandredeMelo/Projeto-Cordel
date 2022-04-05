@@ -4,20 +4,18 @@
 
 @import url('https://fonts.googleapis.com/css2? family= Sriracha & display=swap');
 
-
-
 :root {
    --fonte1: Verdana, Geneva, Tahoma, Sans-serif;
-     --fonte2: 'Passion One', cursiva;
-     --fonte3: 'Sriracha', cursiva; 
+   --fonte2: 'Passion One', cursiva;
+   --fonte3: 'Sriracha', cursiva; 
 }
 * {
    margin: 0px;
    padding: 0px;
-   font: 1em;
+  /*font-size: 1em;*/
  }
  html, body {
-   font-family:var(--fonte1) ;
+   font-family: var(--fonte1);
    min-height: 100vh;
    background-color: darkgray;
  }
@@ -27,7 +25,7 @@
    color: white;
    text-align: center;
     }
- header > h1  {
+ header > h1 > p{
    font-family: var(--fonte2);
    padding: 40px;
    text-transform: small-caps;
@@ -45,12 +43,12 @@
     text-decoration: underline;
  } 
  section {
-    font-family: var(--fonte3);
     padding-top: 8vh;
     padding-bottom: 8vh;
     line-height: 1.5em;
     padding-left: 32px;
-    font-size: 2.5em;
+    font-family: var(--fonte3);
+    font-size: 4vw;
  }
  section.nornal {
     background-color:aliceblue;
