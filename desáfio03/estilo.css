@@ -16,7 +16,7 @@
    src: url(../desáfio03/fontes/CedarvilleCursive-Regular.ttf);
    }
 
-
+/* Variavel de fonts */
 :root {
    --fonte1: Verdana, Geneva, Tahoma, Sans-serif;
    --fonte2: 'Passion One', cursiva;
