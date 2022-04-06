@@ -14,7 +14,7 @@
 
 @font-face {
    font-family: 'Cedarville Cursive', cursiva;
-   src: url(fontes/CedarvilleCursive-Regular.ttf);
+   src: url(../desáfio03/fontes/CedarvilleCursive-Regular.ttf);
    }
 
 
@@ -35,14 +35,14 @@
    background-color: darkgray;
  }
  header {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-family: var(--fonte1);
    padding: 40px;
    background-color: rgb(56, 56, 56);
    color: white;
    text-align: center;
     }
  header > h1 > p{
-   /*font-family: var(--fonte2);*/
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    padding: 40px;
    text-transform: small-caps;
    font-size: 08vw;  
